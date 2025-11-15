@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1413.77 2216.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_475);
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_475" data-name="Gradiente sem nome 475" x1="0" y1="1108.15" x2="1413.77" y2="1108.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".02" stop-color="#fff" stop-opacity=".54"/>
+      <stop offset=".07" stop-color="#fff" stop-opacity=".66"/>
+      <stop offset=".14" stop-color="#fff" stop-opacity=".77"/>
+      <stop offset=".22" stop-color="#fff" stop-opacity=".85"/>
+      <stop offset=".31" stop-color="#fff" stop-opacity=".92"/>
+      <stop offset=".42" stop-color="#fff" stop-opacity=".97"/>
+      <stop offset=".57" stop-color="#fff" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <polygon class="cls-1" points="474.93 0 1413.77 0 1413.77 2216.3 0 2216.3 474.93 0"/>
+  </g>
+</svg>

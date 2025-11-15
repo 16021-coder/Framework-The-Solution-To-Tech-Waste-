@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 447.41 1828.52">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Gradiente_sem_nome_29-3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: #eb6f36;
+        stroke-miterlimit: 10;
+        stroke-width: 11px;
+      }
+
+      .cls-2 {
+        stroke: url(#Gradiente_sem_nome_29-4);
+      }
+
+      .cls-3 {
+        stroke: url(#Gradiente_sem_nome_29-5);
+      }
+
+      .cls-4 {
+        stroke: url(#Gradiente_sem_nome_29);
+      }
+
+      .cls-5 {
+        stroke: url(#Gradiente_sem_nome_29-6);
+      }
+
+      .cls-6 {
+        stroke: url(#Gradiente_sem_nome_66);
+      }
+
+      .cls-7 {
+        stroke: url(#Gradiente_sem_nome_29-7);
+      }
+
+      .cls-8 {
+        stroke: url(#Gradiente_sem_nome_29-2);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_29" data-name="Gradiente sem nome 29" x1="162.91" y1="168.89" x2="162.91" y2="86.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7c0c9"/>
+      <stop offset="1" stop-color="#e4e3e1"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_29-2" data-name="Gradiente sem nome 29" x1="162.91" y1="163.39" x2="162.91" y2="1828.52" xlink:href="#Gradiente_sem_nome_29"/>
+    <linearGradient id="Gradiente_sem_nome_66" data-name="Gradiente sem nome 66" x1="406.11" y1="82.6" x2="406.11" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7c0c9"/>
+      <stop offset=".08" stop-color="#cac3cb"/>
+      <stop offset=".64" stop-color="#dddadb"/>
+      <stop offset="1" stop-color="#e4e3e1"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_29-3" data-name="Gradiente sem nome 29" x1="406.11" y1="77.1" x2="406.11" y2="1828.52" xlink:href="#Gradiente_sem_nome_29"/>
+    <linearGradient id="Gradiente_sem_nome_29-4" data-name="Gradiente sem nome 29" x1="284.51" y1="283.83" x2="284.51" y2="201.23" xlink:href="#Gradiente_sem_nome_29"/>
+    <linearGradient id="Gradiente_sem_nome_29-5" data-name="Gradiente sem nome 29" x1="284.51" y1="278.34" x2="284.51" y2="1848.04" gradientTransform="translate(0 3.44) scale(1 .99)" xlink:href="#Gradiente_sem_nome_29"/>
+    <linearGradient id="Gradiente_sem_nome_29-6" data-name="Gradiente sem nome 29" x1="41.3" y1="344.78" x2="41.3" y2="262.18" xlink:href="#Gradiente_sem_nome_29"/>
+    <linearGradient id="Gradiente_sem_nome_29-7" data-name="Gradiente sem nome 29" x1="41.31" y1="340.06" x2="41.31" y2="1848.04" gradientTransform="translate(0 3.44) scale(1 .99)" xlink:href="#Gradiente_sem_nome_29"/>
+  </defs>
+  <g id="Camada_2-2" data-name="Camada 2">
+    <g>
+      <circle class="cls-4" cx="162.91" cy="127.59" r="35.8"/>
+      <line class="cls-8" x1="162.91" y1="1828.52" x2="162.91" y2="163.39"/>
+      <circle class="cls-6" cx="406.11" cy="41.3" r="35.8"/>
+      <line class="cls-1" x1="406.11" y1="1828.52" x2="406.11" y2="77.1"/>
+      <circle class="cls-2" cx="284.51" cy="242.53" r="35.8"/>
+      <line class="cls-3" x1="284.51" y1="1828.52" x2="284.51" y2="278.32"/>
+      <circle class="cls-5" cx="41.3" cy="303.48" r="35.8"/>
+      <line class="cls-7" x1="41.3" y1="1828.52" x2="41.31" y2="339.28"/>
+    </g>
+  </g>
+</svg>
