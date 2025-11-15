@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265.94 265.94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Inter-Bold, Inter;
+        font-size: 32px;
+        font-variation-settings: 'opsz' 14, 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="Camada_3" data-name="Camada 3">
+    <rect class="cls-1" width="265.94" height="265.94"/>
+    <rect class="cls-3" x="11.05" y="11.01" width="243.93" height="243.93"/>
+  </g>
+  <g id="Camada_4" data-name="Camada 4">
+    <g>
+      <text class="cls-2" transform="translate(91.69 103.99)"><tspan x="0" y="0">Anda </tspan><tspan class="cls-4" x="6.16" y="38.4">p</tspan><tspan x="26.65" y="38.4">a</tspan><tspan class="cls-6" x="45.23" y="38.4">r</tspan><tspan x="57.82" y="38.4">a </tspan><tspan class="cls-4" x="-1.36" y="76.8">b</tspan><tspan x="19.12" y="76.8">ai</tspan><tspan class="cls-5" x="46.38" y="76.8">x</tspan><tspan x="64.3" y="76.8">o</tspan></text>
+      <path d="M101.88,26.63c22.6,17.91,39.31,18.87,61.75,0h8.58c7.79,4.71,29.75,14.25,33.41,22.33,2.74,6.05-.01,20.37,1.04,28.12,3.08,22.6,28.76,21.97,34.28,36.04,2.33,5.95,2.7,32.71.82,38.81-4.28,13.94-32.6,13.44-35.26,38.49-.75,7.06,1,15.33-.09,22.2-1.97,12.4-24.48,20.81-34.21,26.68h-8.58c-20-17.06-40.4-19.08-60.03,0h-10.29c-9.15-6.54-32.29-14.48-34.21-26.68-2.03-12.89,3.68-25.33-5.5-37.38-8.24-10.81-28.95-11.57-30.61-28.56v-27.44c1.66-16.96,22.39-17.76,30.61-28.56,9.18-12.05,3.48-24.49,5.5-37.38,1.92-12.21,25.06-20.14,34.21-26.68h8.58ZM120.33,66.52c-69.62,9.47-69.59,123.43,0,132.89,103.81,14.12,103.01-146.9,0-132.89Z"/>
+    </g>
+  </g>
+</svg>
