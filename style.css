@@ -1,0 +1,773 @@
+/*RESET*/
+
+html{
+    font-size: 1vw;
+}
+
+body, header, section, article, footer, figure, div, nav, img, h1, h2, h3, p, a{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    z-index:0;
+} 
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+/*WINDOWS BLUESCREEN*/
+
+.bluescreen{
+    background-color: #0078d4;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.box{
+    width: 60%;
+    max-height: 60%;
+    margin-left: 10%;
+    object-fit: contain;
+
+}
+
+.icon{
+    max-width: 8%;
+    margin-bottom: 5%;
+}
+
+.icon img{ width:100%}
+
+.box h2{
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: normal;
+    font-size: 2vw;
+    margin-bottom: 5%;
+    max-height: 30vh;
+}
+
+.bluebottom{
+    display: flex;
+    align-items: top;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.qr-code{
+    max-width: 18%;
+    height: fit-content;
+}
+
+.qr-code img{
+    width: 100%;
+    height:auto;
+}
+
+.texto-blue{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 79%;
+    height:auto;
+    font-size: 120%;
+}
+
+
+
+/*HEADER*/
+
+.cabeçalho{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2vw 3vw;
+}
+
+.cabeçalho nav{
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeçalho nav a{
+    margin-left: 50px;
+}
+
+
+/*BODY*/
+
+body{
+    background-image: url(../imagens/Framework__fundo01.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;    
+}
+
+.sub-body{
+    height: 100vw;
+    position: relative;
+    display: inline-block;
+}
+
+.design{
+    object-fit:contain;
+    height: 115vw;
+    width: 100%;position: relative;
+    display:flex;
+    justify-content: right;
+}
+
+.gradient{
+    width: 100%;
+    bottom: 0vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.realce{
+    position: absolute;
+    width: 73vw;
+    right: 0;
+}
+
+.decoração-iv{
+    position: absolute;
+    z-index: 4;
+    top: 30vw;
+    height: 84.5vw;
+    right:8vw;
+    width: 25vw;
+}
+
+.framework-logo{
+    position: absolute;
+    height: 5vw;
+    right: 5vw ;
+    top: 4vw;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.text-anime{
+    z-index: 1;
+    height: 7vh;
+    position:  relative;
+    top: 17vw;
+    right: 5vw;
+    width:95vw;
+
+}
+
+.text-anime h2{
+    font-weight: 400;
+    font-size: 3vw;
+    position: absolute;
+}
+.h2-1{
+    right: 32.5vw;
+}
+.h2-2{
+    right:0vw;
+}
+
+.anime{
+    height: 7vh;
+    position: absolute ;
+    width: 17%;
+    right:15vw;
+}
+.anime > div{
+    font-size: 3vw;
+    font-weight: 800;
+    opacity:0;
+    position:absolute; 
+}
+
+.anime > div:nth-child(1){
+    color: #ba440d;
+    left: 6%;
+    animation: roll 6s linear infinite 0s;
+}
+.anime div:nth-child(2){
+    color: #ba440d;
+    animation: roll 6s linear infinite 1s;
+}
+.anime div:nth-child(3){
+    color: #ba440d;
+    left: 23%;
+    animation: roll 6s linear infinite 2s;
+}
+.anime div:nth-child(4){
+    color: #ba440d;
+    left: 13%;
+    animation: roll 6s linear infinite 3s;
+}
+.anime div:nth-child(5){
+    color: #ba440d;
+    left: 12%;
+    animation: roll2 6s linear infinite 4s;
+}
+
+@keyframes roll {
+    0% {opacity:0;}
+    3% {opacity:1;}
+    18% {opacity:0;}
+}
+
+@keyframes roll2 {
+    0% {opacity:0;}
+    3% {opacity:1;}
+    35% {opacity:0;}
+}
+
+
+
+
+
+/*SOBRE FRAMEWORK*/
+
+.sobre{
+    background-color:#31365c;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+.janela{
+    background-color: #e4e3e1;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.janela-in{
+    margin:auto;
+    width: 90%;
+    height: 90%;
+}
+
+.sobre-título{
+    background-color:#ffffff;
+    width: 100%;
+    height: 12%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center ;
+}
+
+.sobre-título img{
+     width: 22%;
+}
+
+.out-sobre-conteúdo{
+    display:flex;
+    align-items:center;
+    height: 90%;
+
+}
+
+.sobre-conteúdo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.retrato{
+    width: 40%;
+    height: 100%;
+}
+
+.retrato img{
+    width: 100%;
+}
+
+.sobre-texto{
+    width: 55%;
+    height: 100%;
+}
+
+.sobre-texto p{
+    font-size: 1vw;
+    line-height: 160%;
+    margin:3%;
+}
+
+
+
+/*VIDEO*/
+
+
+.video-transition{
+    position: r;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+}
+
+.video-modules{
+    height:100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upper-gradient{
+    background-color: #31365c;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    height: 40vh;
+    width: 100%;
+    top: 0;
+}
+
+.lower-gradient{
+    background-color:#417779;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    height: 40vh;
+    width: 100%;
+    bottom:0;
+}
+
+.G{opacity: 0;}
+
+
+
+/*RTX-5070-MODULE*/
+
+.rtx-5070-module{
+    background-color: #417779;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.container{
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    z-index: 1;
+}
+
+.rtx-5070{
+    height: 80%;
+    width:90%;
+    color: #fff;
+    
+}
+
+.rtx-5070 h1{
+    position: absolute;
+    font-size: 3vw;
+    margin-bottom: 10%;
+    margin-left: 2vw;
+}
+
+.text{
+    position: absolute;
+    font-size: 1.3vw;
+    width: 80%;
+    margin-top:7vw;
+    margin-left: 4vw;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+
+.p2 {
+    position: absolute;
+    top: 2vw;
+    left: 0.8vw;
+}
+.p3 {
+    position: absolute;
+    top: 4vw;
+    left: 1.6vw;
+}
+.p4 {
+    position: absolute;
+    top: 6vw;
+    left: 2.4vw;
+}
+.p5 {
+    position: absolute;
+    top: 8vw;
+    left: 3.2vw;
+}
+.p6 {
+    position: absolute;
+    top: 10vw;
+    left: 4vw;
+}
+.p7 {
+    position: absolute;
+    top: 12vw;
+    left: 4.8vw;
+}
+.p8 {
+    position: absolute;
+    top: 14vw;
+    left: 5.6vw;
+}
+.p9 {
+    position: absolute;
+    top: 16vw;
+    left: 6.4vw;
+}
+.p10 {
+    position: absolute;
+    top: 18vw;
+    left: 7.2vw;
+}
+.p11 {
+    position: absolute;
+    top: 20vw;
+    left: 8vw;
+}
+.p12 {
+    position: absolute;
+    top: 22vw;
+    left: 8.8vw;
+}
+.p13 {
+    position: absolute;
+    top: 24vw;
+    left: 9.6vw;
+}
+.p14 {
+    position: absolute;
+    top: 26vw;
+    left: 10.4vw;
+}
+
+
+.rtx-5070-hands{
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+}
+
+.rtx-5070-hands img{
+    
+    width: 100%;
+}
+
+
+
+/*FIM*/
+
+.fim{
+    height: 90vh;
+    color: #fff;
+    background-color: #000000c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.join-framework{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.smily-face{
+    margin-left: 5%;
+    height: 50vh;
+}
+
+.smily-face img{
+    height: 100%;
+}
+
+.contain{
+    margin-right: 25%;
+    width: 45%;
+    position: relative;
+}
+
+.contain h1{
+    font-size: 4vw;
+    color: #ff5100;
+    margin-bottom: 5%;
+}
+
+.contain h2{
+    margin: 5% 0;
+    font-weight: 200;
+}
+
+.q{
+    height: 5vw;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.y{
+    height: 5vw;
+    width: 7.1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-contain{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.Site{
+    border-radius: 10px;
+    height: 4vw;
+    align-self: center;
+    justify-self: center;
+    transform: 1s ease;
+}
+.Site:hover{
+    height: 5vw}
+
+
+.Youtube{
+    height: 4vw;
+    align-self: center;
+    justify-self: center;
+    transform: 1s ease;
+}
+.Youtube:hover{
+    height: 5vw}
+
+
+.Instagram{
+    height: 4vw;
+    align-self: center;
+    justify-self: center;
+    transform: 1s ease;
+}
+.Instagram:hover{
+    height: 5vw}
+
+
+.Tik-Tok{
+    border-radius: 10px;
+    height: 4vw;
+    align-self: center;
+    justify-self: center;
+    transform: 1s ease;
+}
+.Tik-Tok:hover{
+    height: 5vw}
+
+
+.X{
+    border-radius: 10px;
+    height: 4vw;
+    align-self: center;
+    justify-self: center;
+    transform: 1s ease;
+}
+.X:hover{
+    height: 5vw}
+
+
+
+.decoração-iv-2{
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    right: 3vw;
+    bottom: 0;
+    overflow: hidden;
+}
+
+/*FOOTER*/
+
+.final{
+    height: 10vh;
+    background-color: #e4e3e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final h3{
+    font-weight: 400;
+}
+
+
+
+
+/*MEDIA-QUARY*/
+
+@media all and (orientation: portrait) and (min-aspect-ratio: 1/3){
+    
+    .box{width:80%; max-height: 80%;}
+
+    .box h2{font-size: 4vw;}
+
+    .texto-blue{font-size: 3vw}
+
+    .cabeçalho{font-size: 200%;}
+
+    .decoração-iv{height: 90vw; width:30vw}
+
+    .sobre-conteúdo{flex-direction: column;}
+
+    .sobre-título{height:6%}
+    
+    .sobre-título img{ width: 40%}
+
+    .retrato{width: 100%; margin-bottom: 10%;}
+
+    .sobre-texto{width: 100%;}
+
+    .sobre-texto p{font-size: 2.5vw;}
+
+    .rtx-5070-hands{width: 100%;}
+
+    .join-framework{justify-content: left;}
+    
+    .smily-face{position:absolute;height: 10vh;margin-left: 0; right:10vw; top: 30%;}
+    
+    .contain h1{font-size: 8vw; width:100%}
+
+    .contain h2{font-size: 3vw;}
+
+    .sub-contain{margin-top: 1vh; width:130%;}
+
+    .Site:hover{
+    height: 10vw}
+
+    .Site{
+    height: 8vw}
+
+    .Youtube:hover{
+    height: 10vw}
+
+    .Youtube{
+    height: 8vw}
+
+    .Instagram:hover{
+    height: 10vw}
+
+    .Instagram{
+    height: 8vw}
+
+    .Tik-Tok:hover{
+    height: 10vw}
+
+    .Tik-Tok{
+    height: 8vw}
+
+    .X:hover{
+    height: 10vw}
+
+    .X{
+    height: 8vw}
+
+    .decoração-iv-2{width: 30vw}
+
+    .final h3{font-size: 3vw;}
+}
+
+
+
+@media all and (orientation: portrait) and (min-aspect-ratio: 1/2){
+
+    .retrato{ width: 80%; margin: none}
+
+    .sobre-texto p{font-size: 2vw;}
+}
+
+@media all and (orientation: portrait) and (min-aspect-ratio: 1/1.8){
+    
+    .container{left: 1vw; justify-content: center;}
+
+    .rtx-5070{height: 30%; margin-top: 60vw;}
+}
+
+@media all and (orientation: portrait) and (min-aspect-ratio: 1/1.5){
+
+    .retrato{ width: 60%; margin: none}
+
+    .sobre-texto p{font-size: 1.7vw;}
+
+    .container{left:1vw; justify-content: center;}
+
+    .rtx-5070{height: 30%; margin-top: 30vw;}
+}
+
+@media all and (orientation: portrait) and (min-aspect-ratio: 1/1.2){
+
+    .container{left:1vw; justify-content: center;}
+
+    .rtx-5070{height: 40%;}
+}
+
+@media all and (orientation: portrait) and (min-aspect-ratio: 1/1.15){
+
+    .retrato{ width: 45%; margin-bottom: 0;}
+
+    .sobre-texto p{font-size: 1.5vw;}
+
+    .container{left:1vw; justify-content: center;}
+
+    .rtx-5070{height: 70%;}
+}
+
+@media all and (min-aspect-ratio: 1.8/1){
+
+    .video-transition{height: 50vh;}
+}
+
+@media all and (min-aspect-ratio: 2.3/1){
+
+    .video-transition{height: 60vh;}
+
+}
+
+@media all and (min-aspect-ratio: 3/1){
+
+    .retrato{ width: 30%; margin: 0 4%;}
+
+    .sobre-texto{width: 80%;}
+
+    .sobre-texto p{font-size: .8vw}
+}
